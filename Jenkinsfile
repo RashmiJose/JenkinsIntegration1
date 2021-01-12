@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Design') {
             steps {
-                print("Design Step is executed")
+                echo("Design Step is executed")
             }
         }
         stage('Build') {
             steps {
-                print("Build step is executed")
+                echo("Build step is executed")
             }
         }
         stage('Test') {
             steps {
-                print("Test step is executed")
+                echo("Test step is executed")
             }
         } 
         stage('Deploy') {
             steps {
-                print("Deploy step is executed")
+                echo("Deploy step is executed")
             }
         }    
     }
