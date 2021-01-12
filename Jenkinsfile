@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Design') {
             steps {
+                git url: 'https://github.com/RashmiJose/JenkinsIntegration1.git'
                 echo("Design Step is executed")
             }
         }
